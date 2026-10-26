@@ -1,0 +1,8 @@
+{
+ "agent": "petclinic-vuln-patcher",
+ "title": "humo petclinic-vuln-patcher: GitHub MCP access",
+ "budget_usd": 1,
+ "vault_ids": ["vlt_011CgMMTHhKDYfy7PqYBpcZr"],
+ "resources": [],
+ "events": [{"type": "user.message", "content": [{"type": "text", "text": "Smoke test. Do not start the task, do not clone the repository, and create nothing. Use the GitHub tools to list the branches and the open pull requests of jthan24/spring-petclinic. Reply with the number of branches, the number of open pull requests, and any error text exactly as the tool returned it."}]}]
+}

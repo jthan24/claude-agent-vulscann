@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "origin": {
+    "base_url": "https://api.anthropic.com",
+    "organization_id": "01a19c13-3a1d-4467-a274-7f0b712a06cd",
+    "workspace_id": "wrkspc_01TouEhaq4s7aatsEbSmp9q7"
+  },
+  "resources": {
+    "./agents/petclinic-vuln-patcher/agent.md": {
+      "kind": "agent",
+      "id": "agent_01RxUMEYpPMahTxUi3umhyAK",
+      "version": "2",
+      "hash": "56f570d92ca13de1d865c6bd0ef4b102",
+      "remote_hash": "aa99ee11f3199ee04f6ef5e6188cc4a5"
+    },
+    "./agents/petclinic-vuln-patcher/deployment-lunes.yaml": {
+      "kind": "deployment",
+      "id": "depl_01YFjoaGjEsr4tjLtRnQmD9x",
+      "hash": "8ac6e01ee6dbda6649fa360e4d8209f1",
+      "remote_hash": "8ac6e01ee6dbda6649fa360e4d8209f1"
+    },
+    "./agents/petclinic-vuln-patcher/environment.yaml": {
+      "kind": "environment",
+      "id": "env_01BfZvhvesK1KdSMo9QfJf83",
+      "hash": "2091a6afb353ec2837bf03c03bc84ee7",
+      "remote_hash": "366bb4e2dad79837acc5f82af2be8677"
+    },
+    "./agents/petclinic-vuln-patcher/vault.yaml": {
+      "kind": "vault",
+      "id": "vlt_011CgMMTHhKDYfy7PqYBpcZr",
+      "hash": "1ce7cbeafd649e247cb664d9737cd5c6",
+      "remote_hash": "1ce7cbeafd649e247cb664d9737cd5c6"
+    },
+    "./skills/java-vuln-remediation": {
+      "kind": "skill",
+      "id": "skill_01CemaYHe7VFgRJNcb6pvu7e",
+      "version": "skver_01VKBBhquJga1s8pj5apJsok",
+      "hash": "bad19892f665a3c9b8c1d06959af2be9"
+    },
+    "./skills/security-audit": {
+      "kind": "skill",
+      "id": "skill_01BrKQvdJr7qHrneGwyapQny",
+      "version": "skver_01TxooEsg8zzv6DYnThXjNdr",
+      "hash": "d99df4167afcf2ca59c03b1aaced63ff"
+    }
+  }
+}

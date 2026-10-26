@@ -1,0 +1,6 @@
+name: petclinic-vuln-patcher lunes
+deployment_file: deployment-lunes.yaml
+schedule: {type: cron, expression: "0 3 * * 1", timezone: America/Bogota}
+budget: {type: limit, max_list_cost: {amount: "1500", currency: USD}}   # cents: "1500" = USD 15 per run
+vault_ids: [./vault.yaml]
+# no resources: the agent clones the public repo itself (a mounted repo in a Deployment needs a token in this file)

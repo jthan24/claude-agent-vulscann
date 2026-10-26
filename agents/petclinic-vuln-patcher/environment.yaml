@@ -1,0 +1,15 @@
+name: petclinic-vuln-patcher
+config:
+  type: cloud
+  networking:
+    type: limited
+    allow_mcp_servers: true          # GitHub MCP
+    allow_package_managers: true     # package registries
+    allowed_hosts:
+      - repo.maven.apache.org        # Maven dependencies and wrapper
+      - repo1.maven.org
+      - api.osv.dev                  # CVE lookups
+      - github.com                   # clone and pull the public repo
+      - services.gradle.org          # Gradle wrapper distribution
+      - plugins.gradle.org           # Gradle plugins
+      - plugins-artifacts.gradle.org

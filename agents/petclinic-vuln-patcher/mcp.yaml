@@ -1,0 +1,16 @@
+mcp_servers:
+  - {type: url, name: github, url: "https://api.githubcopilot.com/mcp/x/all"}
+toolsets:
+  - type: mcp_toolset
+    mcp_server_name: github
+    default_config: {enabled: false, permission_policy: {type: always_allow}}   # allowlist: only what is listed
+    configs:
+      # reads
+      - {name: get_file_contents, enabled: true}
+      - {name: list_branches, enabled: true}
+      - {name: list_pull_requests, enabled: true}
+      - {name: search_pull_requests, enabled: true}
+      # writes: unattended run, so always_allow; no merge, update, close or delete is enabled
+      - {name: create_branch, enabled: true}
+      - {name: push_files, enabled: true}
+      - {name: create_pull_request, enabled: true}

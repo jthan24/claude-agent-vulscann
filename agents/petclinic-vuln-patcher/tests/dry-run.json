@@ -1,0 +1,8 @@
+{
+ "agent": "petclinic-vuln-patcher",
+ "title": "test petclinic-vuln-patcher dry run",
+ "budget_usd": 15,
+ "vault_ids": ["vlt_011CgMMTHhKDYfy7PqYBpcZr"],
+ "resources": [],
+ "dry_run": true
+}

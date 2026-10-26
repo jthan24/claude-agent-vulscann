@@ -1,0 +1,3 @@
+skills:
+  - ../../skills/security-audit           # cloudflare/security-audit-skill (MIT), vendored copy
+  - ../../skills/java-vuln-remediation    # team rules: threshold, branches, test-first, PR template
